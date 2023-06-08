@@ -33,6 +33,10 @@ body {
     color: #666;
 }
 
+footer p {
+    display: block;
+}
+
 
 /* Header styles */
 header {
