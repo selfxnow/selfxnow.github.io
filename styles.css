@@ -171,12 +171,22 @@ header {
 }
 
 /* Footer styles */
+/* Footer styles */
 footer {
     background-color: #333;
     color: #fff;
     padding: 10px;
     text-align: center;
 }
+
+footer a {
+    color: #fff;
+}
+
+footer a:hover {
+    color: #666;
+}
+
 
 .slogan-container {
     margin-left: 20px;
