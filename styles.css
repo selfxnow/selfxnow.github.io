@@ -226,3 +226,24 @@ main section p {
     color: #333;
     text-align: justify;
 }
+
+
+/* Contact info styles */
+#contact-info {
+    background-color: #f5f5f5;
+    text-align: center;
+    padding: 100px 0;
+}
+
+#contact-info h2 {
+    font-size: 24px;
+    color: #333;
+    font-family: "Arial", sans-serif;
+}
+
+#contact-info p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    font-family: "Helvetica", sans-serif;
+    color: #555;
+}
