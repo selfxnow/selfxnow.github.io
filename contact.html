@@ -34,19 +34,19 @@
         <div class="contact-container">
             <div class="contact-form">
                 <h1>Contact Us</h1>
-                <form action="mailto:info@selfxnow.com" method="post" enctype="text/plain">
+                 <form action="mailto:info@selfxnow.com" method="post" enctype="text/plain">
                     <label for="name">Name:</label><br>
-                    <input type="text" id="name" name="name" required><br>
-
+                    <input type="text" id="name" name="name" minlength="60" required><br>
+    
                     <label for="email">Email:</label><br>
-                    <input type="email" id="email" name="email" required><br>
-
+                    <input type="email" id="email" name="email" minlength="60" required><br>
+    
                     <label for="subject">Subject:</label><br>
-                    <input type="text" id="subject" name="subject" required><br>
-
+                    <input type="text" id="subject" name="subject" minlength="60" required><br>
+    
                     <label for="message">Message:</label><br>
-                    <textarea id="message" name="message" required></textarea><br>
-
+                    <textarea id="message" name="message" minlength="300" required></textarea><br>
+    
                     <input type="submit" value="Submit">
                 </form>
             </div>
