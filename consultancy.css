@@ -1,88 +1,28 @@
-/* Global Styles */
-body {
-    font-family: Arial, sans-serif;
-    color: #333;
-    background-color: #f5f5f5;
-    margin: 0;
-    padding: 0;
-}
-
-/* Heading Styles */
-h1, h2, h3, h4, h5, h6 {
-    color: #444;
-}
-
-h1 {
-    font-size: 2.5em;
-    margin-bottom: 15px;
-}
-
-h2 {
-    font-size: 2em;
-    margin-bottom: 10px;
-}
-
-/* Paragraph Styles */
-p {
-    font-size: 1.2em;
-    line-height: 1.6;
-    margin-bottom: 20px;
-}
-
-/* Link Styles */
-a {
-    color: #0088cc;
-    text-decoration: none;
-}
-
-a:hover {
-    color: #005580;
-}
-
-/* List Styles */
-ul {
-    list-style-type: disc;
-    margin-left: 20px;
-}
-
-ul li {
-    font-size: 1.2em;
-    line-height: 1.6;
-    margin-bottom: 10px;
-}
-
-/* Container Styles */
-.container {
-    width: 80%;
-    margin: auto;
-    padding: 20px;
-}
-
 .content-container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center; /* Vertically center child elements */
 }
 
 .text-content {
-    flex: 1 0 60%;  /* This will cover 60% of the container's width */
+    flex: 1 0 60%;
 }
 
 .image-content {
-    flex: 1 0 35%;  /* This will cover 35% of the container's width */
-    margin-left: 5%;  /* This will provide a 5% gap between text and image */
+    flex: 1 0 35%;
+    margin-left: 5%;
 }
 
 .image-content img {
-    max-width: 100%;  /* This will make sure the image does not overflow its container */
+    max-width: 100%;
     height: auto;
 }
 
-/* This media query will trigger when the window is 800px or less in width */
 @media (max-width: 800px) {
     .content-container {
         flex-direction: column;
+        align-items: flex-start; /* Align items to the start on small screens */
     }
 
     .text-content,
