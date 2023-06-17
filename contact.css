@@ -59,13 +59,3 @@ body {
     color: #fff;
     cursor: pointer;
 }
-
-.contact-form input[type="submit"]:hover {
-    background-color: #444;
-}
-
-@media (max-width: 768px) {
-    .contact-container {
-        flex-direction: column;
-    }
-}
