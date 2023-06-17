@@ -59,3 +59,22 @@ ul li {
 }
 
 /* Add more specific styles as per your requirements */
+.content-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.text-content {
+    flex: 0 0 60%;  /* This will cover 60% of the container's width */
+}
+
+.image-content {
+    flex: 0 0 35%;  /* This will cover 35% of the container's width */
+    margin-left: 5%;  /* This will provide a 5% gap between text and image */
+}
+
+.image-content img {
+    max-width: 100%;  /* This will make sure the image does not overflow its container */
+    height: auto;
+}
