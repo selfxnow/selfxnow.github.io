@@ -45,12 +45,11 @@ body {
 .contact-form input[type="text"],
 .contact-form input[type="email"],
 .contact-form textarea {
-    min-width: 200px; /* Adjust as necessary */
     padding: 12px;
     border: 1px solid #ddd;
     margin-bottom: 20px;
 }
-.contact-form input[type="submit"] {
+.contact-form input[type="send"] {
     display: block;
     width: 100%;
     padding: 10px;
