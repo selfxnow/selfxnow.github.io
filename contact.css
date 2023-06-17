@@ -16,18 +16,18 @@ body {
 .contact-container {
     display: flex;
     justify-content: space-between;
-    max-width: 1000px;
-    margin: 20px auto;
+    align-items: start;
     padding: 20px;
 }
 
-.contact-form, .contact-address {
+.contact-form {
     flex: 1;
-    padding: 20px;
-    background-color: #fff;
-    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
 }
 
+.contact-address {
+    flex: 1;
+}
 .contact-form h1, .contact-address h2 {
     margin-top: 0;
 }
@@ -37,15 +37,19 @@ body {
     margin: 5px 0;
 }
 
+.image-content img {
+    width: 100%;
+    height: auto;
+}
+
 .contact-form input[type="text"],
 .contact-form input[type="email"],
 .contact-form textarea {
-    width: 100%;
+    min-width: 200px; /* Adjust as necessary */
     padding: 12px;
     border: 1px solid #ddd;
     margin-bottom: 20px;
 }
-
 .contact-form input[type="submit"] {
     display: block;
     width: 100%;
