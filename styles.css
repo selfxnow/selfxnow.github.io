@@ -174,6 +174,55 @@ header {
     background-color: #666;
 }
 
+#trends-section {
+    width: 100%;
+    padding: 20px 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    height: 400px; /* Adjust as needed */
+    overflow-y: auto; /* Enables vertical scrolling */
+    overflow-x: hidden; /* Prevents horizontal scrolling */
+}
+
+.section-title {
+    font-size: 24px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.news-item {
+    width: 100%; /* Changes here */
+    box-sizing: border-box;
+    margin-bottom: 20px; /* Additional spacing between news items */
+}
+
+.news-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.news-summary {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: #444;
+}
+
+
 /* Footer styles */
 footer {
     background-color: #333;
@@ -198,54 +247,6 @@ footer a:hover {
 }
 
 
-#trends-section {
-    width: 100%;
-    padding: 20px 0;
-}
-
-.container {
-    width: 80%;
-    margin: auto;
-    height: 400px; /* Adjust as needed */
-    overflow-y: auto; /* Enables vertical scrolling */
-    overflow-x: hidden; /* Prevents horizontal scrolling */
-}
-
-.section-title {
-    font-size: 24px;
-    text-align: center;
-    padding-bottom: 20px;
-}
-
-.news-item {
-    width: 45%;
-    float: left;
-    margin: 2.5%;
-    box-sizing: border-box;
-}
-
-.news-title {
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.news-summary {
-    font-size: 16px;
-    margin: 10px 0;
-}
-
-.btn {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #000;
-    color: #fff;
-    text-decoration: none;
-    text-align: center;
-}
-
-.btn:hover {
-    background-color: #8e918f;
-}
 
 /* Styles for About page */
 main {
