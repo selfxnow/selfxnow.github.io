@@ -149,14 +149,14 @@ header {
 }
 
 .hero-content h1 {
-    font-size: 25px;
+    font-size: 28px;
     margin-bottom: 20px;
     font-family: "Helvetica", sans-serif;
     color: #333;
 }
 
 .hero-content p {
-    font-size: 25px;
+    font-size: 18px;
     margin-bottom: 30px;
     font-family: "Helvetica", sans-serif;
     color: #555;
