@@ -183,7 +183,7 @@ header {
     width: 100%;
     margin: auto;
     height: 410px; /* Adjust as needed */
-    overflow-y: auto; /* Enables vertical scrolling */
+    overflow-y: hidden; /* Enables vertical scrolling */
     overflow-x: hidden; /* Prevents horizontal scrolling */
 }
 
