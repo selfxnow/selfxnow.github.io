@@ -3,8 +3,9 @@
     background-image: url('about.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
-     text-align: center;
+    background-position: relative;
+    hight: 400px;
+
      padding: 10px 0;
 
 
