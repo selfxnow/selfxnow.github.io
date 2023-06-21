@@ -1,6 +1,6 @@
  #hero-section {
 
-    background-image: "about.jpg";
+    background-image: url('about.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
