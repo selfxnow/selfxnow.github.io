@@ -5,16 +5,16 @@
     background-size: cover;
     background-position: center;
     height: 500px;
+    position: relative;
 
     .hero-content {
-        position: absolute;
-         right: 0;
+       position: absolute;
+       right: 0;
        top: 50%; /* To center the text vertically */
-
-        max-width: 500px;
-
-        text-align: left;
-        color: #FFFFE0;
+       transform: translate(50%, -50%);
+       max-width: 500px;
+       text-align: left;
+       color: #FFFFE0;
     }
 
     .hero-content h1 {
