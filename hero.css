@@ -50,15 +50,6 @@
     }
 
 
-    .hero-content {
-    position: absolute;
-    right: 0;
-    top: 50%; /* To center the text vertically */
-    transform: translateY(-50%);
-    background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent white background */
-    padding: 10px;
-    max-width: 50%; /* You can adjust this value */
-}
     .hero-content-bk {
         flex-basis: 70%;
         max-width: 450px;
