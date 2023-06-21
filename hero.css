@@ -51,6 +51,9 @@
 
 
     .hero-content {
+        position: absolute;
+         right: 0;
+       top: 50%; /* To center the text vertically */
         flex-basis: 40%;
         max-width: 500px;
         margin-right: 5px;
