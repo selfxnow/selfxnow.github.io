@@ -1,15 +1,18 @@
-.contact-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding: 20px;
-}
-
-.contact-form {
-    flex: 0 1 70%;
-    margin-right: 20px;
-}
-
-.contact-address {
-    flex: 1;
+#contact-section {
+    background-color: #FF4500; /* orange red */
+    .contact-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 20px;
+    }
+    
+    .contact-form {
+        flex: 0 1 70%;
+        margin-right: 20px;
+    }
+    
+    .contact-address {
+        flex: 1;
+    }
 }
