@@ -14,10 +14,12 @@
         flex-direction: row;
         justify-content: space-between;
         align-items: center; /* Vertically center child elements */
+        padding: 20px;
     }
     
     .text-content {
         flex: 1 0 60%;
+       
     }
     
     .image-content {
