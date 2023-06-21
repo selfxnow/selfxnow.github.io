@@ -11,8 +11,8 @@
        position: absolute;
        right: 0;
        top: 50%; /* To center the text vertically */
-       transform: translate(50%, -50%);
-       max-width: 500px;
+       transform: translate(0%, -50%);
+       max-width: 430px;
        text-align: left;
        color: #FFFFE0;
     }
