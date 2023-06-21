@@ -11,27 +11,7 @@ body {
     padding: 20px;
 }
 
-/* Contact section styles */
-#contact {
-    background-color: #f5f5f5;
-    color: #333;
-    padding: 50px 0;
-    text-align: center;
-}
 
-#contact h2 {
-    font-size: 30px;
-    margin-bottom: 20px;
-}
-
-#contact a {
-    color: #333;
-    text-decoration: none;
-}
-
-#contact a:hover {
-    color: #666;
-}
 
 footer p {
     display: block;
@@ -116,13 +96,5 @@ footer a {
 footer a:hover {
     color: #666;
 }
-
-
-.slogan-container {
-    margin-left: 20px;
-    font-family: "Arial", sans-serif;
-    color: #ff8800;
-}
-
 
 
