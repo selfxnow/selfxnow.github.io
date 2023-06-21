@@ -22,16 +22,19 @@
         width: 100%; /* Changes here */
         box-sizing: border-box;
         margin-bottom: 20px; /* Additional spacing between news items */
+         color: #FFFFFF;
     }
     
     .news-title {
         font-size: 20px;
         font-weight: bold;
+         color: #FFFFFF;
     }
 
     .news-summary {
         font-size: 16px;
         margin: 10px 0;
+         color: #FFFFFF;
     }
     
     .btn {
@@ -41,6 +44,7 @@
         color: #fff;
         text-decoration: none;
         text-align: center;
+         color: #FFFFFF;
     }
     
     .btn:hover {
