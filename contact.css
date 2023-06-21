@@ -1,5 +1,6 @@
 #contact-section {
     background-color: #800000; /* orange red */
+
     .contact-container {
         display: flex;
         justify-content: space-between;
