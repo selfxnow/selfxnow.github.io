@@ -174,53 +174,7 @@ header {
     background-color: #666;
 }
 
-#trends-section {
-    width: 100%;
-    padding: 5px 0;
-}
 
-.container {
-    width: 100%;
-    margin: auto;
-    height: 410px; /* Adjust as needed */
-    overflow-y: hidden; /* Enables vertical scrolling */
-    overflow-x: hidden; /* Prevents horizontal scrolling */
-}
-
-.section-title {
-    font-size: 24px;
-    text-align: center;
-    padding-bottom: 10px;
-}
-
-.news-item {
-    width: 100%; /* Changes here */
-    box-sizing: border-box;
-    margin-bottom: 20px; /* Additional spacing between news items */
-}
-
-.news-title {
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.news-summary {
-    font-size: 16px;
-    margin: 10px 0;
-}
-
-.btn {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #7d817e;
-    color: #fff;
-    text-decoration: none;
-    text-align: center;
-}
-
-.btn:hover {
-    background-color: #444;
-}
 
 
 /* Footer styles */
