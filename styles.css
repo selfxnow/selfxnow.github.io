@@ -13,10 +13,6 @@ body {
 
 
 
-footer p {
-    display: block;
-}
-
 
 /* Header styles */
 header {
@@ -95,6 +91,10 @@ footer a {
 
 footer a:hover {
     color: #666;
+}
+
+footer p {
+    display: block;
 }
 
 
