@@ -6,7 +6,7 @@
 
     .container {
         width: 100%;
-        margin: auto;
+        margin-left:0px;
         height: 410px; /* Adjust as needed */
         overflow-y: hidden; /* Enables vertical scrolling */
         overflow-x: hidden; /* Prevents horizontal scrolling */
