@@ -1,5 +1,8 @@
 /* Global styles */
 body {
+    background-image: url("about.jpg");
+    background-size: cover; /* cover the whole page */
+    background-repeat: no-repeat; /* prevent the image from repeating */
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
