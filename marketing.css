@@ -1,5 +1,5 @@
 #marketing-section {
-   background-color: #f0f0f0; /* light gray */
+     background-color: #f0f0f0; /* light gray */
 
     /* Container Styles */
     .container {
@@ -14,11 +14,12 @@
         flex-direction: row;
         justify-content: space-between;
         align-items: center; /* Vertically center child elements */
+        padding: 20px;
     }
     
     .text-content {
         flex: 1 0 60%;
-        padding: 20px;
+       
     }
     
     .image-content {
