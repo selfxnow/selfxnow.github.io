@@ -1,13 +1,9 @@
  #hero-section {
-    background-color: #d3d3d3; /* medium gray */
-    
-   /* Hero section styles */
-    #hero-section {
-        position: relative;
-        background-color: #f5f5f5;
-        text-align: center;
-        padding: 10px 0;
-    }
+
+     background-color: #f5f5f5;
+     text-align: center;
+     padding: 10px 0;
+
 
     .container {
         display: flex;
