@@ -1,4 +1,4 @@
-#product-section {
+/* #product-section {
      background-color: #f0f0f0; /* light gray */
       padding: 20px;
       margin-bottom: 50px; /* Set the desired gap value */
@@ -50,19 +50,53 @@
         }
     }
 
-     .iframe-container {
-  position: relative;
-  width: 100%;
-  height: 0;
-  padding-bottom: 56.25%; /* 16:9 aspect ratio, adjust as needed */
+} */
+
+#product-section {
+  background-color: #f0f0f0;
+  padding: 20px;
+  margin-bottom: 50px;
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 1);
 }
 
-iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
+.container {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.text-content {
+  flex: 1 0 60%;
+}
+
+.image-content {
+  flex: 1 0 35%;
+}
+
+.image-content iframe {
   width: 100%;
   height: 100%;
 }
 
+@media (max-width: 800px) {
+  .content-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .text-content,
+  .image-content {
+    flex: 1 0 auto;
+    margin: 0;
+    width: 100%;
+  }
 }
+
