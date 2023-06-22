@@ -5,31 +5,32 @@
      box-shadow: 2px 5px 10px rgba(0, 0, 0, 1); /* Set the desired shadow values */
      overflow-x: auto;
   white-space: nowrap;
-}
 
-.content-container {
-  display: inline-flex;
-}
-
-.icon-box {
-  text-align: center;
-  margin: 0 20px;
-}
-
-.icon-box a {
-  display: block;
-}
-
-.icon-box img {
-  width: 100px;
-  height: 100px;
-}
-
-.note-area {
-  margin-top: 10px;
-}
-
-.note-area p {
-  font-size: 16px;
-  color: #333;
+     
+     .content-container {
+       display: inline-flex;
+     }
+     
+     .icon-box {
+       text-align: center;
+       margin: 0 20px;
+     }
+     
+     .icon-box a {
+       display: block;
+     }
+     
+     .icon-box img {
+       width: 432px;
+       height: 234px;
+     }
+     
+     .note-area {
+       margin-top: 10px;
+     }
+     
+     .note-area p {
+       font-size: 16px;
+       color: #333;
+     }
 }
