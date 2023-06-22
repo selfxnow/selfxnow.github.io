@@ -23,6 +23,7 @@
      .icon-box img {
        width: 432px;
        height: 234px;
+     box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.7);
      }
      
      .note-area {
