@@ -35,7 +35,28 @@
         max-width: 100%;
         height: auto;
     }
-    
+    .icon-box {
+  text-align: center;
+  margin: 0 20px;
+}
+
+.icon-box a {
+  display: block;
+}
+
+.icon-box img {
+  width: 100px;
+  height: 100px;
+}
+
+.note-area {
+  margin-top: 10px;
+}
+
+.note-area p {
+  font-size: 16px;
+  color: #333;
+}
     @media (max-width: 800px) {
         .content-container {
             flex-direction: column;
