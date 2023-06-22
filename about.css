@@ -1,4 +1,4 @@
-#about-section {
+/* #about-section {
      background-color: #f0f0f0; /* light gray */
      padding: 20px;
       margin-bottom: 50px; /* Set the desired gap value */
@@ -49,4 +49,63 @@
             width: 100%;
         }
     }
+}*/
+
+
+#about-section {
+    background-color: #f0f0f0; /* light gray */
+    padding: 20px;
+    margin-bottom: 50px; /* Set the desired gap value */
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 1); /* Set the desired shadow values */
 }
+
+/* Container Styles */
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Add more specific styles as per your requirements */
+.content-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; /* Vertically center child elements */
+    padding: 20px;
+}
+
+.text-content {
+    flex: 1 0 60%;
+}
+
+.image-content {
+    flex: 1 0 35%;
+    margin-left: 5%;
+}
+
+.image-content img {
+    max-width: 100%;
+    height: auto;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.7);
+}
+
+@media (max-width: 800px) {
+    #about-section {
+        padding: 10px; /* Adjust the padding for smaller screens */
+    }
+
+    .content-container {
+        flex-direction: column;
+        align-items: flex-start; /* Align items to the start on small screens */
+        padding: 10px;
+    }
+
+    .text-content,
+    .image-content {
+        flex: 1 0 auto;
+        margin: 0;
+        width: 100%;
+    }
+}
+
