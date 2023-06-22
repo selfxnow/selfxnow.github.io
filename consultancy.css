@@ -3,6 +3,8 @@
      background-color: #f0f0f0; /* light gray */
      padding: 20px;
       margin-bottom: 50px; /* Set the desired gap value */
+     box-shadow: 2px 5px 10px rgba(0, 0, 0, 1); /* Set the desired shadow values */
+
 
     /* Container Styles */
     .container {
