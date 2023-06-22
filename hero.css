@@ -1,4 +1,4 @@
- #hero-section {
+/* #hero-section {
 
     background-image: url('about.jpg');
     background-repeat: no-repeat;
@@ -32,4 +32,65 @@
     }
 
 
+}
+*/
+
+#hero-section {
+    background-image: url('about.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    position: relative;
+}
+
+#hero-section .hero-content {
+    position: absolute;
+    right: 0;
+    left: 0; /* Adjust the left value to center the text horizontally */
+    top: 50%;
+    transform: translate(0%, -50%);
+    max-width: 90%;
+    margin: 0 auto; /* To center the content horizontally */
+    text-align: center; /* Align the text in the center */
+    color: #FFFFE0;
+}
+
+#hero-section .hero-content h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-family: "Helvetica", sans-serif;
+    color: #FFFFFF;
+}
+
+#hero-section .hero-content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    font-family: "Helvetica", sans-serif;
+    color: #FFFFFF;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    #hero-section {
+        height: 300px; /* Adjust the height as needed for smaller screens */
+    }
+    
+    #hero-section .hero-content {
+        max-width: 90%;
+        font-size: 16px;
+        margin: 0 auto;
+        top: 40%; /* Adjust the top value to center the text vertically */
+        transform: translate(0%, -40%);
+    }
+    
+    #hero-section .hero-content h1 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    
+    #hero-section .hero-content p {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
 }
