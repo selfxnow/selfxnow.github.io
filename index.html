@@ -5,7 +5,7 @@
   <title>SelfX Now Technologies LLC</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- Stylesheets -->
+  <!-- Base styles you already have -->
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="about.css">
   <link rel="stylesheet" href="consultancy.css">
@@ -15,18 +15,28 @@
   <link rel="stylesheet" href="hero.css">
   <link rel="stylesheet" href="blog.css">
   <link rel="stylesheet" href="announcement.css">
+
+  <!-- Tiny helper styles for the new blocks (add to your main css later) -->
+  <style>
+    .grid        { display:flex; flex-wrap:wrap; gap:2rem; }
+    .card        { flex:1 1 250px; background:#fafafa; border-radius:10px; padding:1.5rem; box-shadow:0 2px 6px rgba(0,0,0,.08); }
+    .card h4     { margin-top:0 }
+    .badge-list  { display:flex; flex-wrap:wrap; gap:.5rem; padding:0; list-style:none; }
+    .badge-list li { background:#0052d4; color:#fff; padding:.35rem .75rem; border-radius:999px; font-size:.85rem; }
+    .icon        { font-size:1.3rem; margin-right:.4rem; color:#0052d4; }
+  </style>
 </head>
 
 <body>
-<!-- HEADER ---------------------------------------------------------------->
+<!-- HEADER --------------------------------------------------------------->
 <header>
   <div class="logo-container">
-    <img src="selfxnow_logo_blackbg.png" alt="SelfX Now Technologies logo" class="logo">
+    <img src="selfxnow_logo_blackbg.png" alt="SelfX Now logo" class="logo">
   </div>
 
-  <nav aria-label="Main navigation">
+  <nav aria-label="Main">
     <ul class="menu">
-      <li><a href="index.html">Home</a></li>
+      <li><a href="#hero-section">Home</a></li>
       <li class="submenu">
         <a href="#service-section">Services</a>
         <ul class="submenu-items">
@@ -44,187 +54,139 @@
 </header>
 
 
-<!-- HERO ------------------------------------------------------------------->
+<!-- HERO ------------------------------------------------------------------>
 <section id="hero-section">
   <div class="hero-content">
     <h1>Powering the Autonomous Network Era</h1>
-    <p>
-      From strategy to execution, SelfX Now turns complex telecom networks into
-      self-optimising, AI-driven powerhouses.
-    </p>
+    <p>We transform complex telecom infrastructure into self-optimising, AI-driven ecosystems.</p>
   </div>
 </section>
 
 
-<!-- ABOUT ------------------------------------------------------------------>
+<!-- ABOUT ----------------------------------------------------------------->
 <section id="about-section">
   <h1>Who We Are</h1>
-
   <div class="content-container">
     <div class="text-content">
-
-      <h3>Mission</h3>
-      <p>
-        We help carriers, vendors and hyperscalers unlock the promise of
-        autonomous networks—faster, safer and at lower cost.
-      </p>
-
-      <h3>Edge</h3>
-      <p>
-        Deep OSS/BSS roots meet cutting-edge AI. Our team blends decades of
-        telecom operations know-how with the latest automation tech.
-      </p>
-
-      <h3>What We Deliver</h3>
-      <ul>
-        <li>Blueprints for zero-touch operations</li>
-        <li>AI-powered assessment &amp; optimisation</li>
-        <li>Turn-key solutions and hands-on enablement</li>
+      <p><strong>Mission:</strong> Unlock autonomous networking—faster, safer, smarter.</p>
+      <p><strong>Edge:</strong> Decades of OSS/BSS experience meet state-of-the-art AI and automation.</p>
+      <p><strong>We Deliver:</strong></p>
+      <ul class="badge-list">
+        <li>Zero-touch blueprints</li>
+        <li>AI optimisation</li>
+        <li>Hands-on enablement</li>
       </ul>
-
-      <h3>Commitment</h3>
-      <p>
-        We stay ahead of industry shifts so our clients stay ahead of their
-        competition.
-      </p>
-
     </div>
-
     <div class="image-content">
-      <img src="about.jpg" alt="SelfX Now team discussion">
+      <img src="about.jpg" alt="Team at work">
     </div>
   </div>
 </section>
 
 
 
-<!-- SERVICES WRAPPER -------------------------------------------------------->
+<!-- SERVICE WRAPPER ------------------------------------------------------->
 <section id="service-section">
 
-  <!-- CONSULTANCY ---------------------------------------------------------->
+  <!-- CONSULTANCY -->
   <section id="consultancy-section">
     <h1>Consultancy</h1>
+    <div class="grid">
 
-    <div class="content-container">
-      <div class="text-content">
-
-        <h3>Strategy</h3>
-        <p>
-          Road-map autonomous-network roll-outs and align them with board-level
-          KPIs.
-        </p>
-
-        <h3>Architecture</h3>
-        <p>
-          Design cloud-native, AI-ready OSS/BSS stacks optimised for zero-touch
-          operations.
-        </p>
-
-        <h3>Data &amp; Analytics</h3>
-        <p>
-          Transform raw telemetry into actionable insights—and revenue.
-        </p>
-
-        <h3>Capability Uplift</h3>
-        <p>
-          Accelerated training programmes that turn existing teams into AN
-          specialists.
-        </p>
-
-        <h3>AN Maturity Scoring</h3>
-        <p>
-          Independent level assessments mapped to TM Forum AN frameworks.
-        </p>
-
+      <div class="card">
+        <h4><span class="icon">🧭</span>Strategy</h4>
+        <p>Road-maps that align autonomous roll-outs with C-suite KPIs.</p>
       </div>
 
-      <div class="image-content">
-        <img src="consultancy.jpg" alt="Consultancy workshop">
+      <div class="card">
+        <h4><span class="icon">🏗️</span>Architecture</h4>
+        <p>Cloud-native, AI-ready stacks built for zero-touch ops.</p>
       </div>
+
+      <div class="card">
+        <h4><span class="icon">📊</span>Analytics</h4>
+        <p>Convert raw telemetry into revenue-boosting insights.</p>
+      </div>
+
+      <div class="card">
+        <h4><span class="icon">🎓</span>Capability Uplift</h4>
+        <p>Fast-track training that turns teams into AN experts.</p>
+      </div>
+
+      <div class="card">
+        <h4><span class="icon">📈</span>AN Scoring</h4>
+        <p>Independent maturity assessments mapped to TM Forum levels.</p>
+      </div>
+
     </div>
   </section>
 
 
-  <!-- MARKETING ----------------------------------------------------------->
+
+  <!-- MARKETING -->
   <section id="marketing-section">
     <h1>Growth Marketing</h1>
+    <div class="grid">
 
-    <div class="content-container">
-      <div class="text-content">
-
-        <h3>AI-Optimised Campaigns</h3>
-        <p>
-          Always-on ads tuned in real time to your buyers’ intent.
-        </p>
-
-        <h3>Predictive Demand Gen</h3>
-        <p>
-          Data models spotlight high-value prospects before your rivals do.
-        </p>
-
-        <h3>Autonomous Content</h3>
-        <p>
-          Large-language–model workflows that produce personalised assets at
-          scale.
-        </p>
-
-        <h3>SEO &amp; Organic Lift</h3>
-        <p>
-          Automated technical and semantic optimisation that keeps you on
-          page 1.
-        </p>
-
+      <div class="card">
+        <h4><span class="icon">⚡</span>AI-Optimised Ads</h4>
+        <p>Campaigns tuned in real time to buyer intent.</p>
       </div>
 
-      <div class="image-content">
-        <img src="marketing.jpg" alt="Marketing analytics dashboard">
+      <div class="card">
+        <h4><span class="icon">🔮</span>Predictive Demand Gen</h4>
+        <p>Spot high-value prospects before competitors do.</p>
       </div>
+
+      <div class="card">
+        <h4><span class="icon">✍️</span>Autonomous Content</h4>
+        <p>LLM workflows that craft personalised assets at scale.</p>
+      </div>
+
+      <div class="card">
+        <h4><span class="icon">🚀</span>SEO Boost</h4>
+        <p>Automated optimisation that keeps you on page 1.</p>
+      </div>
+
     </div>
   </section>
-</section>  <!-- /service-section -->
+</section> <!-- /service-section -->
 
 
 
-<!-- PRODUCTS --------------------------------------------------------------->
+<!-- PRODUCT --------------------------------------------------------------->
 <section id="product-section">
   <h1>Flagship Product</h1>
 
   <p>
-    Meet <strong>AINA Lyzer&nbsp;v2.9</strong>—the transport-layer intelligence
-    engine built for truly autonomous networks. Co-launched with Primforce
-    Technologies, now available in North America exclusively through SelfX Now.
+    <strong>AINA Lyzer&nbsp;v2.9</strong>—transport-layer intelligence built for
+    autonomous networks. Co-developed with Primforce, now exclusive to North
+    America via SelfX Now.
   </p>
 
   <div class="content-container">
     <div class="text-content">
-      <article class="product-item">
-        <h2>AINA Lyzer</h2>
 
-        <ul>
-          <li><strong>Live Network IQ →</strong> ML-driven insights within
-              seconds.</li>
-          <li><strong>Predictive Uptime →</strong> Find and fix faults before
-              users notice.</li>
-          <li><strong>Traffic Turbo →</strong> AI routing that squeezes every
-              bit of capacity.</li>
-          <li><strong>Anomaly Shield →</strong> Spot threats others miss.</li>
-          <li><strong>Dashboard Delight →</strong> Zero-clutter UI. Instant
-              answers.</li>
-        </ul>
+      <h2>Feature Highlights</h2>
+      <ul class="badge-list">
+        <li>Live IQ</li>
+        <li>Predictive Uptime</li>
+        <li>Traffic Turbo</li>
+        <li>Anomaly Shield</li>
+        <li>Dashboard Delight</li>
+      </ul>
 
-        <p>
-          <a href="https://ainalyzer.primforce.com/landingpage/home_page"
-             target="_blank" rel="noopener">
-            Explore AINA Lyzer
-          </a>
-        </p>
-      </article>
+      <p>
+        <a href="https://ainalyzer.primforce.com/landingpage/home_page"
+           target="_blank" rel="noopener">Explore AINA Lyzer →</a>
+      </p>
+
     </div>
 
     <div class="image-content">
       <a href="https://ainalyzer.primforce.com/landingpage/home_page"
          target="_blank" rel="noopener">
-        <img src="ana_image.png" alt="AINA Lyzer dashboard screenshot">
+        <img src="ana_image.png" alt="AINA Lyzer dashboard">
       </a>
     </div>
   </div>
@@ -232,36 +194,33 @@
 
 
 
-<!-- BLOG ------------------------------------------------------------------->
+<!-- BLOG ------------------------------------------------------------------>
 <section id="blog-section">
   <h1>Insights &amp; Ideas</h1>
+  <div class="grid">
 
-  <div class="content-container">
-
-    <article class="icon-box">
+    <article class="card icon-box">
       <a href="https://medium.com/swlh/autonomous-driving-network-adn-on-its-way-772d053f8a1e"
          target="_blank" rel="noopener">
-        <img src="an_on_the_way_image.jpg"
-             alt="Thumbnail: ADN on its way">
+        <img src="an_on_the_way_image.jpg" alt="ADN article thumbnail">
       </a>
-      <h2 class="note-area">Autonomous Networks: On The Way</h2>
+      <h4>Autonomous Networks: On The Way</h4>
     </article>
 
-    <article class="icon-box">
+    <article class="card icon-box">
       <a href="https://medium.com/@mingogame/make-network-an-autonomous-product-fb66c66cc392"
          target="_blank" rel="noopener">
-        <img src="autonomous_thing.jpg"
-             alt="Thumbnail: Autonomous product">
+        <img src="autonomous_thing.jpg" alt="Autonomous product thumbnail">
       </a>
-      <h2 class="note-area">Turning Networks Into Products</h2>
+      <h4>Turning Networks Into Products</h4>
     </article>
 
-    <article class="icon-box">
+    <article class="card icon-box">
       <a href="https://medium.com/@mingogame/heard-of-f5g-7d1d4bda8d49"
          target="_blank" rel="noopener">
-        <img src="f5g.jpg" alt="Thumbnail: F5G">
+        <img src="f5g.jpg" alt="F5G article thumbnail">
       </a>
-      <h2 class="note-area">What Is F5G?</h2>
+      <h4>What Is F5G?</h4>
     </article>
 
   </div>
@@ -269,27 +228,21 @@
 
 
 
-<!-- ANNOUNCEMENTS ---------------------------------------------------------->
+<!-- ANNOUNCEMENTS --------------------------------------------------------->
 <section id="announcement-section">
-  <h2 class="section-title">Latest News</h2>
+  <h2 class="section-title">Newsroom</h2>
 
-  <div class="container">
+  <div class="grid">
 
-    <div class="news-item">
-      <h3 class="news-title">SelfX Now + Primforce: Signed MOU</h3>
-      <p class="news-summary">
-        Partnership accelerates transport-layer monitoring and optimisation for
-        next-gen autonomous networks.
-      </p>
+    <div class="card news-item">
+      <h3>SelfX Now × Primforce</h3>
+      <p>New MOU accelerates transport-layer optimisation for AN markets.</p>
       <a class="btn" href="announcement.html" aria-label="Read more">Read →</a>
     </div>
 
-    <div class="news-item">
-      <h3 class="news-title">CEO Keynote at SIT 2023</h3>
-      <p class="news-summary">
-        Our CEO will present at Telecom Argentina’s flagship seminar, sharing
-        the path to zero-touch operations.
-      </p>
+    <div class="card news-item">
+      <h3>CEO Keynote @ SIT 2023</h3>
+      <p>Sharing the roadmap to zero-touch operations at Telecom Argentina’s flagship event.</p>
       <a class="btn" href="announcement.html" aria-label="Read more">Read →</a>
     </div>
 
@@ -303,7 +256,7 @@
   <div class="contact-container">
 
     <div class="contact-form">
-      <h1>Let’s Talk</h1>
+      <h1>Let’s Connect</h1>
 
       <form action="mailto:info@selfxnow.com" method="post" enctype="text/plain">
         <label for="name">Name</label><br>
@@ -316,15 +269,14 @@
         <input id="subject" name="subject" type="text" size="80" required><br>
 
         <label for="message">Message</label><br>
-        <textarea id="message" name="message" rows="10" cols="80"
-                  required></textarea><br>
+        <textarea id="message" name="message" rows="10" cols="80" required></textarea><br>
 
         <button type="submit">Send</button>
       </form>
     </div>
 
     <div class="contact-address">
-      <h2>Our Address</h2>
+      <h2>HQ</h2>
       <address>
         SelfX Now Technologies<br>
         5655 Silver Creek Rd., Suite 324<br>
